@@ -1,0 +1,39 @@
+body {
+  background-color: #111111;
+  margin: 0px;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  margin-left: 370px;
+}
+.container .bg {
+  position: absolute;
+  z-index: -1;
+  background-image: url("assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 785px;
+  width: 700px;
+  opacity: 0.3;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.box1 {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+.box2 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+.box3 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
