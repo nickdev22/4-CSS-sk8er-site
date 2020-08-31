@@ -5,23 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>4-CSS-SK8ER-SITE</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div class="main-container">
-      <div class="bg"></div>
       <div class="content-container">
-        <div class="social"></div>
-        <div class="nav">
-            <div class="nav-grid">
-                <div class="news">— SK8T NEWS —</div>
-                <div class="sbs">— SKATEBOARDERS —</div>
-                <div class="design">— BOARD DESIGN —</div>
-                <div class="contactus">— CONTACT US —</div>
+        <div class="social">
+            <div class="subscribe">
+                <p id="subscribe">SUBSCRIBE</p>
+                <div class="subscribe-dot"></div>
+            </div>
+            <div class="social-dots">
+                <div class="social-dot1"></div>
+                <div class="social-dot2"></div>
+                <div class="social-dot3"></div>
+                <div class="social-dot4"></div>
+                <div class="social-dot5"></div>
+            </div>
+            <div class="fb-box">
+                <i id="fb" class="fa fa-facebook" aria-hidden="true"></i>
+            </div>
+            <div class= "wifi-box">
+                <i id="wifi" class="fa fa-wifi" aria-hidden="true"></i>
+            </div>
+            <div class= "twitter-box">
+                <i id="twitter" class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+            <div class= "youtube-box">
+                <i id="youtube" class="fa fa-youtube" aria-hidden="true"></i>
             </div>
         </div>
+        <nav class="nav">
+            <div class="nav-grid">
+                <div class="news">
+                    <a href="">— SK8T NEWS —</a>
+                </div>
+                <div class="sbs">
+                    <a href="">— SKATEBOARDERS —</a>
+                </div>
+                <div class="design">
+                    <a href="">— BOARD DESIGN —</a>
+                </div>
+                <div class="contactus">
+                    <a href="">— CONTACT US —</a>
+                </div>
+            </div>
+        </nav>
         <div class="box1">
-          <div class="bg-top"></div>
           <img id="logo" src="assets/peralta-logo.png" alt="peralta logo" />
+          <div class="three-dot-grid">
+          <div class="eye"></div>
+          <div class="dot2"></div>
+          <div class="dot3"></div>
+          </div>
         </div>
         <div class="box2">
           <p class="title">
@@ -37,7 +72,7 @@
             Vegas on Saturday at the Green Acres Estate in Beverly Hills.
           </p>
           <br />
-          <p class="read">[ READ MORE ]</p>
+          <p class="read" id="hawk-read">[ READ MORE ]</p>
         </div>
         <div class="box3">
           <p class="title">
@@ -54,12 +89,13 @@
             fostering...
           </p>
           <br />
-          <p class="read">[ READ MORE ]</p>
+          <p class="read" id="mullen-read">[ READ MORE ]</p>
         </div>
         <div class="box4">
-          <p class="title">Ray Barbee Talks 'Ban This'</p>
+          <p class="title">Ray Barbee Talks</p>
+          <p class="title">'Ban This'</p>
           <br />
-          <p class="date">October 4, 2013</p>
+          <p class="date" id="barbee-date">October 4, 2013</p>
           <br />
           <p class="bio">
             Since filming is in full swing for the Vans video Adventures With
@@ -69,19 +105,22 @@
             skateboard and Chris' childhood idol...
           </p>
           <br />
-          <p class="read">[ READ MORE ]</p>
+          <p class="read" id="barbee-read">[ READ MORE ]</p>
         </div>
         <div class="box5">
-          <h1>LANCE<br />MOUNTAIN</h1>
+            <div class="sb-tag">
+                <p id="sb-tag">SKATEBOARDERS</p>
+            </div>
+          <h1 class="lance">LANCE<br />MOUNTAIN</h1>
         </div>
         <div class="box6">
-          <h1>RODNEY<br />MULLEN</h1>
+          <h1 class="rodney">RODNEY<br />MULLEN</h1>
         </div>
         <div class="box7">
           <h1 class="tommy">TOMMY<br />GUERRO</h1>
         </div>
         <div class="box8">
-          <h1>STEVE CABALLERO</h1>
+          <h1 class="steve">STEVE CABALLERO</h1>
         </div>
         <div class="box9">
           <div class="sb-grid">
@@ -128,15 +167,29 @@
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
               </p>
+              <div class="social-icons">
+                <div class="fb-box2">
+                    <i id="fb2" class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+                <div class= "wifi-box2">
+                    <i id="wifi2" class="fa fa-wifi" aria-hidden="true"></i>
+                </div>
+                <div class= "twitter-box2">
+                    <i id="twitter2" class="fa fa-twitter" aria-hidden="true"></i>
+                </div>
+                <div class= "youtube-box2">
+                    <i id="youtube2" class="fa fa-youtube" aria-hidden="true"></i>
+                </div>
+              </div>
             </div>
             <div class="form">
-                <input type="text" placeholder="NAME">
+                <input id="name" type="text" placeholder="NAME">
                 <br>
-                <input type="text" placeholder="EMAIL">
+                <input id="email" type="text" placeholder="EMAIL">
                 <br>
-                <input type="text" placeholder="YOUR MESSAGE" rows= 4>
+                <input id="message" type="text" placeholder="YOUR MESSAGE">
                 <br>
-                <button class="submit">Submit</button>
+                <button class="submit">SUBMIT</button>
             </div>
           </div>
         </div>
